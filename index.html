@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Sort,Cities,Join</title>
+</head>
+
+<body>
+    <script>
+        var scoreOfStudents = [320, 230, 480, 120]
+        document.write( '<strong>' + ' ReArrange numbers:: ' + '</strong>' + scoreOfStudents +' <br> ')
+        scoreOfStudents.sort()
+        document.write('<strong>' + ' Arrange numbers:: ' + '</strong>' +scoreOfStudents+ ' <br> ')
+        var citiesList = ['karachi', 'lahore', 'islamabad', 'quetta', 'peshawar']
+        var selectedCities = []
+        for (i = 2; i <= 3; i++) {
+            selectedCities.push(citiesList[i])
+        }
+        document.write('<strong>' + ' Cities:: ' + '</strong>' + citiesList + '<br>')
+        document.write('<strong>' + ' Selected Cities:: ' + '</strong>' + selectedCities + '<br>')
+
+        var cat = [ ' This ', ' is ', ' my ' , ' cat '];
+        var joinCat=cat.join('')
+        document.write('<strong>' + ' ARRAY:: ' + '</strong>'+'<br>' + '<u>' + cat +'</u>' + '<br>')
+        document.write('<strong>' + ' JoinArray:: ' + '</strong>'+'<br>' + '<u>' + joinCat +'</u>' + '<br>')
+
+    </script>
+</body>
+
+</html>
